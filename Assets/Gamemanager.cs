@@ -41,5 +41,10 @@ public class Gamemanager : MonoBehaviour
         {
             SceneManager.LoadScene("LoseScene");
         }
+
+        if(scorecount >= 100)
+        {
+            SceneManager.LoadScene("WinScene");
+        }
     }
 }
