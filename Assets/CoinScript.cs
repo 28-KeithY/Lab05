@@ -23,6 +23,7 @@ public class CoinScript : MonoBehaviour
         {
             Destroy(gameObject, 0.5f);
             audiosource.Play();
+            Gamemanager.instance.scorecount += 10;
         }
     }
 }
